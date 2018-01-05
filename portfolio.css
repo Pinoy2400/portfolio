@@ -1,0 +1,558 @@
+/************** Dropdown menu ************/
+
+.menutop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.dropdown-menu {
+    background: #fff;
+    padding: 5px;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu label {
+    display: block;
+    cursor: pointer;
+    background: url(img/closed.png) no-repeat left center;
+    padding: 35px 0 35px 80px;
+    width: 1vw;
+    height: 1vh;
+}
+
+input#menu {
+    display: none;
+}
+
+input:checked~label {
+    background: url(img/open.png) no-repeat left center;
+    width: 1vw;
+    height: 1vh;
+    padding: 35px 0 35px 80px;
+}
+
+input:checked~.menu-content {
+    max-height: 100%;
+}
+
+
+/****************** BUTTON *****************/
+
+button {
+    color: black;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.button1: {
+    background-color: white;
+    color: black;
+    border: 2px solid mediumseagreen;
+}
+
+.button1:hover {
+    background-color: green;
+    color: white;
+}
+
+.button12: {
+    background-color: red;
+    color: black;
+    border: 2px solid red;
+}
+
+.button12:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.button13: {
+    background-color: deepskyblue;
+    color: black;
+    border: 2px solid red;
+}
+
+.button13:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+
+.button3 {
+    background-color: sandybrown;
+    color: black;
+    border: 2px solid black;
+}
+
+.button3:hover {
+    background-color: indianred;
+    color: white;
+}
+
+.button4 {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.button4:hover {
+    background-color: white;
+    color: black;
+}
+
+.button5 {
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid black;
+}
+
+.button5:hover {
+    background-color: red;
+    color: white;
+}
+
+.button6 {
+    background-color: orange;
+    color: white;
+    border: 2px solid black;
+}
+
+.button6:hover {
+    background-color: black;
+    color: white;
+}
+
+.button7 {
+    background-color: royalblue;
+    color: white;
+    border: 2px solid royalblue;
+}
+
+.button7:hover {
+    background-color: white;
+    color: royalblue;
+}
+
+.button8 {
+    background-color: royalblue;
+    color: white;
+    border: 2px solid royalblue;
+}
+
+.button8:hover {
+    background-color: white;
+    color: royalblue;
+}
+
+.button9 {
+    background-color: royalblue;
+    color: white;
+    border: 2px solid royalblue;
+}
+
+.button9:hover {
+    background-color: white;
+    color: royalblue;
+}
+
+.button10 {
+    background-color: gold;
+    color: darkslategray;
+    border: 2px solid white;
+}
+
+.button10:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+.button11 {
+    background-color: gold;
+    color: darkslategray;
+    border: 2px solid white;
+}
+
+.button11:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+
+/************* PORTFOLIO ***************************/
+
+#portfolio {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+#portfolio .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#portfolio .column {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1em 1em;
+    margin: 0.8em;
+}
+
+#pilotprojekt {
+    background-color: bisque;
+}
+
+#cphdox {
+    text-align: center;
+}
+
+#cphdox .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cphdox .column {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1em 1em;
+    margin: 0.8em;
+}
+
+#redesign {
+    background-color: burlywood;
+    text-align: center;
+}
+
+#redesign .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#redesign .column {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1em 1em;
+    margin: 0.8em;
+}
+
+#karakterdesign {
+    text-align: center;
+}
+
+#karakterdesign .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#karakterdesign .column {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1em 1em;
+    margin: 0.8em;
+}
+
+#rentetegnede {
+    text-align: center;
+    background-color: orangered
+}
+
+#rentetegnede .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#rentetegnede .column {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1em 1em;
+    margin: 0, 8em;
+}
+
+#sexogsamfund {
+    background-color: orange;
+    text-align: center;
+}
+
+#sexogsamfund .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sexogsamfund .column {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1em 1em;
+    margin: 0.8em;
+}
+
+#keaapp {
+    background-color: skyblue;
+    text-align: center;
+}
+
+#republikken {
+    background-color: lightyellow;
+    text-align: center;
+}
+
+#video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+#video-container iframe,
+#video-container object,
+#video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/************** Menu tablet desktop ************/
+
+nav {
+    font-family: 'martel', serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+    padding: 10px 0;
+    background-color: white;
+    top: -1px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.menubox {
+    position: relative;
+}
+
+.menubox span {
+    cursor: pointer;
+}
+
+.menubox ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    left: -20%;
+    top: 10px;
+    padding: 30px 12px 0 12px;
+    background-color: rgba(255, 255, 255, 0.71);
+}
+
+.menubox:hover>ul {
+    display: block;
+}
+
+nav a:hover {
+    color: #af1a2a;
+}
+
+
+/************** MEDIA QUERIES ************/
+
+#splash .logo img {
+    width: 100%;
+}
+
+#splash .logo {
+    padding: 20px;
+    width: 15vw;
+    box-sizing: content-box;
+}
+
+
+/******* skrift ************/
+
+h1 {
+    font-family: 'martel';
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'martel';
+    font-weight: 400;
+    font-size: 1.9em;
+    margin-left: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'martel';
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'martel';
+    font-weight: 700;
+    font-size: 1em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+p {
+    font-family: "Open+Sans";
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: black;
+    font-size: 0.8em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/************** MEDIA QUERIES ************/
+
+#mig {
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+/**************** FORSIDE **********/
+
+#forside {
+    height: 167vw;
+    background-image: url(forside/mobile_portrait.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 0px) and (max-width: 451px) {
+    #forside {
+        background-image: url(forside/mobile_portrait.png);
+        height: 100vw;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 451px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 451px) {
+    .dropdown-menu {
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 452px) and (max-width: 2000px) {
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 452px) and (max-width: 1024px) {
+    #forside {
+        background-image: url(forside/tablet_portrait.png);
+        background-repeat: no-repeat;
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:2000px) {
+    #forside {
+        background-image: url(forside/desktop.png);
+        background-repeat: no-repeat;
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #mad .sectionwrapper {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #vin .sectionwrapper {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #kontakt .sectionwrapper {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #om .sectionwrapper {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
