@@ -1,4 +1,4 @@
-/************** Dropdown menu ************/
+/************** DROPDOWN MENU ************/
 
 .menutop {
     display: flex;
@@ -40,14 +40,14 @@ input#menu {
     display: none;
 }
 
-input:checked~label {
+input:checked ~ label {
     background: url(img/open.png) no-repeat left center;
     width: 1vw;
     height: 1vh;
     padding: 35px 0 35px 80px;
 }
 
-input:checked~.menu-content {
+input:checked ~ .menu-content {
     max-height: 100%;
 }
 
@@ -61,7 +61,7 @@ button {
     font-size: 20px;
 }
 
-.button1: {
+.button1 {
     background-color: white;
     color: black;
     border: 2px solid mediumseagreen;
@@ -72,7 +72,7 @@ button {
     color: white;
 }
 
-.button12: {
+.button12 {
     background-color: red;
     color: black;
     border: 2px solid red;
@@ -83,7 +83,7 @@ button {
     color: white;
 }
 
-.button13: {
+.button13 {
     background-color: deepskyblue;
     color: black;
     border: 2px solid red;
@@ -204,11 +204,22 @@ button {
     color: white;
 }
 
+.button14 {
+    background-color: red;
+    color: azure;
+    border: 2px solid black;
+}
+
+.button14:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
 
 /************* PORTFOLIO ***************************/
 
 #portfolio {
     background-color: darkseagreen;
+    margin: auto;
     text-align: center;
 }
 
@@ -216,6 +227,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 #portfolio .column {
@@ -238,6 +250,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 #cphdox .column {
@@ -275,6 +288,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 #karakterdesign .column {
@@ -285,24 +299,56 @@ button {
     margin: 0.8em;
 }
 
-#rentetegnede {
+#rentegnede {
     text-align: center;
     background-color: orangered
 }
 
-#rentetegnede .sectionwrapper {
+#rentegnede .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#rentegnede .column {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 1em 1em;
+    margin: 0 8em;
+}
+
+#lydsiden {
+    text-align: center;
+    background-color: deepskyblue;
+}
+
+#lydsiden .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#rentetegnede .column {
+#lydsiden .column {
     align-self: auto;
     flex-grow: 1;
     flex-basis: 300px;
     padding: 0 1em 1em;
-    margin: 0, 8em;
+    margin: 0 8em;
 }
+
+#animation {
+    background-color: azure;
+}
+
+
+#animation .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 #sexogsamfund {
     background-color: orange;
@@ -393,7 +439,7 @@ nav a {
     background-color: rgba(255, 255, 255, 0.71);
 }
 
-.menubox:hover>ul {
+.menubox:hover > ul {
     display: block;
 }
 
