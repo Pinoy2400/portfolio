@@ -86,7 +86,7 @@ button {
 .button13 {
     background-color: deepskyblue;
     color: black;
-    border: 2px solid red;
+    border: 2px solid deepskyblue;
 }
 
 .button13:hover {
