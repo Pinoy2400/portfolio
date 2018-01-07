@@ -64,7 +64,10 @@ button {
 .button1 {
     background-color: white;
     color: black;
-    border: 2px solid mediumseagreen;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button1:hover {
@@ -75,7 +78,11 @@ button {
 .button12 {
     background-color: red;
     color: black;
-    border: 2px solid red;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+
 }
 
 .button12:hover {
@@ -86,7 +93,10 @@ button {
 .button13 {
     background-color: deepskyblue;
     color: black;
-    border: 2px solid deepskyblue;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button13:hover {
@@ -97,7 +107,10 @@ button {
 .button2 {
     background-color: white;
     color: black;
-    border: 2px solid black;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button2:hover {
@@ -108,7 +121,10 @@ button {
 .button3 {
     background-color: sandybrown;
     color: black;
-    border: 2px solid black;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button3:hover {
@@ -120,17 +136,26 @@ button {
     background-color: black;
     color: white;
     border: 2px solid black;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button4:hover {
     background-color: white;
     color: black;
+
 }
 
 .button5 {
     background-color: dodgerblue;
     color: white;
     border: 2px solid black;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button5:hover {
@@ -142,6 +167,10 @@ button {
     background-color: orange;
     color: white;
     border: 2px solid black;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button6:hover {
@@ -153,6 +182,10 @@ button {
     background-color: royalblue;
     color: white;
     border: 2px solid royalblue;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button7:hover {
@@ -164,6 +197,10 @@ button {
     background-color: royalblue;
     color: white;
     border: 2px solid royalblue;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button8:hover {
@@ -171,21 +208,15 @@ button {
     color: royalblue;
 }
 
-.button9 {
-    background-color: royalblue;
-    color: white;
-    border: 2px solid royalblue;
-}
-
-.button9:hover {
-    background-color: white;
-    color: royalblue;
-}
 
 .button10 {
     background-color: gold;
     color: darkslategray;
     border: 2px solid white;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .button10:hover {
@@ -197,6 +228,10 @@ button {
     background-color: gold;
     color: darkslategray;
     border: 2px solid white;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
 .button11:hover {
@@ -208,6 +243,9 @@ button {
     background-color: red;
     color: azure;
     border: 2px solid black;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 .button14:hover {
@@ -495,6 +533,7 @@ h4 {
     margin-left: 10px;
     text-align: center;
 }
+
 
 p {
     font-family: "Open+Sans";
