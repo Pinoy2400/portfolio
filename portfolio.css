@@ -568,14 +568,14 @@ footer {
 
 #forside {
     height: 167vw;
-    background-image: url(forside/mobile_portrait.png);
+    background-image: url(forside/roadtoheaven4_mobil_portraet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 @media screen and (min-width: 0px) and (max-width: 451px) {
     #forside {
-        background-image: url(forside/mobile_portrait.png);
+        background-image: url(forside/roadtoheaven4_mobil_portraet.jpg);
         height: 100vw;
     }
 }
@@ -600,7 +600,7 @@ footer {
 
 @media screen and (min-width: 452px) and (max-width: 1024px) {
     #forside {
-        background-image: url(forside/tablet_portrait.png);
+        background-image: url(forside/roadtoheaven4_tablet.jpg);
         background-repeat: no-repeat;
         height: 75vh;
     }
@@ -608,7 +608,7 @@ footer {
 
 @media screen and (min-width: 1024px) and (max-width:2000px) {
     #forside {
-        background-image: url(forside/desktop.png);
+        background-image: url(forside/roadtoheaven4_desktop.jpg);
         background-repeat: no-repeat;
         height: 65vh;
     }
